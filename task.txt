@@ -1,0 +1,14 @@
+void main() {
+  List<Map> orders = [
+    {'orderID': 1, 'ordername': 'cola', 'price': 10},
+    {'orderID': 2, 'ordername': 'chips', 'price': 20},
+  ];
+
+  // function this function will take the item orderID which is required
+  // also it will take the price which is also required
+  //the name of the item is not required
+  // function that will add a tax value for the item which is .02
+  // if the item price is 1 the new item price after the tax will be 1+.02
+  // the only thing is to print the item info ( required , not required)
+  // + the new item price
+}
